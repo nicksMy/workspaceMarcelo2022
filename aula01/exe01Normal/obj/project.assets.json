@@ -13,11 +13,11 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "/home/nicksmy/Documents/workspace/workspaceMarcelo2022/aula01/exe01/exe01.csproj",
+      "projectUniqueName": "/home/nicksmy/Documents/workspace/workspaceMarcelo2022/aula01/exe01Normal/exe01.csproj",
       "projectName": "exe01",
-      "projectPath": "/home/nicksmy/Documents/workspace/workspaceMarcelo2022/aula01/exe01/exe01.csproj",
+      "projectPath": "/home/nicksmy/Documents/workspace/workspaceMarcelo2022/aula01/exe01Normal/exe01.csproj",
       "packagesPath": "/home/nicksmy/.nuget/packages/",
-      "outputPath": "/home/nicksmy/Documents/workspace/workspaceMarcelo2022/aula01/exe01/obj/",
+      "outputPath": "/home/nicksmy/Documents/workspace/workspaceMarcelo2022/aula01/exe01Normal/obj/",
       "projectStyle": "PackageReference",
       "configFilePaths": [
         "/home/nicksmy/.nuget/NuGet/NuGet.Config"
