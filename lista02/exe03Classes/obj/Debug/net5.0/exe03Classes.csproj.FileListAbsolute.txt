@@ -1,0 +1,16 @@
+/home/nicksmy/Documents/workspace/workspaceMarcelo2022/lista02/exe03Classes/obj/Debug/net5.0/exe03Classes.csproj.AssemblyReference.cache
+/home/nicksmy/Documents/workspace/workspaceMarcelo2022/lista02/exe03Classes/obj/Debug/net5.0/exe03Classes.GeneratedMSBuildEditorConfig.editorconfig
+/home/nicksmy/Documents/workspace/workspaceMarcelo2022/lista02/exe03Classes/obj/Debug/net5.0/exe03Classes.AssemblyInfoInputs.cache
+/home/nicksmy/Documents/workspace/workspaceMarcelo2022/lista02/exe03Classes/obj/Debug/net5.0/exe03Classes.AssemblyInfo.cs
+/home/nicksmy/Documents/workspace/workspaceMarcelo2022/lista02/exe03Classes/obj/Debug/net5.0/exe03Classes.csproj.CoreCompileInputs.cache
+/home/nicksmy/Documents/workspace/workspaceMarcelo2022/lista02/exe03Classes/bin/Debug/net5.0/exe03Classes
+/home/nicksmy/Documents/workspace/workspaceMarcelo2022/lista02/exe03Classes/bin/Debug/net5.0/exe03Classes.deps.json
+/home/nicksmy/Documents/workspace/workspaceMarcelo2022/lista02/exe03Classes/bin/Debug/net5.0/exe03Classes.runtimeconfig.json
+/home/nicksmy/Documents/workspace/workspaceMarcelo2022/lista02/exe03Classes/bin/Debug/net5.0/exe03Classes.runtimeconfig.dev.json
+/home/nicksmy/Documents/workspace/workspaceMarcelo2022/lista02/exe03Classes/bin/Debug/net5.0/exe03Classes.dll
+/home/nicksmy/Documents/workspace/workspaceMarcelo2022/lista02/exe03Classes/bin/Debug/net5.0/ref/exe03Classes.dll
+/home/nicksmy/Documents/workspace/workspaceMarcelo2022/lista02/exe03Classes/bin/Debug/net5.0/exe03Classes.pdb
+/home/nicksmy/Documents/workspace/workspaceMarcelo2022/lista02/exe03Classes/obj/Debug/net5.0/exe03Classes.dll
+/home/nicksmy/Documents/workspace/workspaceMarcelo2022/lista02/exe03Classes/obj/Debug/net5.0/ref/exe03Classes.dll
+/home/nicksmy/Documents/workspace/workspaceMarcelo2022/lista02/exe03Classes/obj/Debug/net5.0/exe03Classes.pdb
+/home/nicksmy/Documents/workspace/workspaceMarcelo2022/lista02/exe03Classes/obj/Debug/net5.0/exe03Classes.genruntimeconfig.cache
