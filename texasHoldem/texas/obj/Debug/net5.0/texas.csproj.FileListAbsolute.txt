@@ -1,0 +1,16 @@
+/home/nicksmy/Documents/workspace/workspaceMarcelo2022/texasHoldem/texas/bin/Debug/net5.0/texas
+/home/nicksmy/Documents/workspace/workspaceMarcelo2022/texasHoldem/texas/bin/Debug/net5.0/texas.deps.json
+/home/nicksmy/Documents/workspace/workspaceMarcelo2022/texasHoldem/texas/bin/Debug/net5.0/texas.runtimeconfig.json
+/home/nicksmy/Documents/workspace/workspaceMarcelo2022/texasHoldem/texas/bin/Debug/net5.0/texas.runtimeconfig.dev.json
+/home/nicksmy/Documents/workspace/workspaceMarcelo2022/texasHoldem/texas/bin/Debug/net5.0/texas.dll
+/home/nicksmy/Documents/workspace/workspaceMarcelo2022/texasHoldem/texas/bin/Debug/net5.0/ref/texas.dll
+/home/nicksmy/Documents/workspace/workspaceMarcelo2022/texasHoldem/texas/bin/Debug/net5.0/texas.pdb
+/home/nicksmy/Documents/workspace/workspaceMarcelo2022/texasHoldem/texas/obj/Debug/net5.0/texas.csproj.AssemblyReference.cache
+/home/nicksmy/Documents/workspace/workspaceMarcelo2022/texasHoldem/texas/obj/Debug/net5.0/texas.GeneratedMSBuildEditorConfig.editorconfig
+/home/nicksmy/Documents/workspace/workspaceMarcelo2022/texasHoldem/texas/obj/Debug/net5.0/texas.AssemblyInfoInputs.cache
+/home/nicksmy/Documents/workspace/workspaceMarcelo2022/texasHoldem/texas/obj/Debug/net5.0/texas.AssemblyInfo.cs
+/home/nicksmy/Documents/workspace/workspaceMarcelo2022/texasHoldem/texas/obj/Debug/net5.0/texas.csproj.CoreCompileInputs.cache
+/home/nicksmy/Documents/workspace/workspaceMarcelo2022/texasHoldem/texas/obj/Debug/net5.0/texas.dll
+/home/nicksmy/Documents/workspace/workspaceMarcelo2022/texasHoldem/texas/obj/Debug/net5.0/ref/texas.dll
+/home/nicksmy/Documents/workspace/workspaceMarcelo2022/texasHoldem/texas/obj/Debug/net5.0/texas.pdb
+/home/nicksmy/Documents/workspace/workspaceMarcelo2022/texasHoldem/texas/obj/Debug/net5.0/texas.genruntimeconfig.cache

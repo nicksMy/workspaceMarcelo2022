@@ -1,0 +1,54 @@
+inicio {
+
+    já com as 5 cartas viradas...
+
+    52 cartas
+    espadas > paus > copas > ouro
+
+    array ou variavel?
+    1 - espadas
+    2 - paus
+    3 - copas 
+    4 - ouro
+
+    A = 1
+    K = 2
+    Q = 3
+    J = 4
+    10 = 5
+    9 = 6
+    8 = 7
+    7 = 8
+    6 = 9 
+    5 = 10
+    4 = 11
+    3 = 12
+    2 = 13
+
+    array ou lista? FILA!
+    as 2 primeiras vão para o jogador 1
+    as 5 seguintes vão para o dealer
+    as 2 últimas vão para o jogador 2
+    
+    declarar e atribuir valor para a variavel i = 0
+
+    iniciar uma fila filaNum para guardar os valores númericos das cartas
+    enquanto a variavel i não for igual a 7
+        adicionar um valor aleatorio entre 1-13 na fila
+        i++
+
+    atribuir o valor 0 para a variavel i
+
+    iniciar uma fila filaNaipes para guardar os naipes das cartas
+    enquanto a variavel i não for igual a 7
+        adicionar um valor aleatorio entre 1-4 na fila
+        i++
+
+    iniciar um loop for com a formula (i = 0; i < 7; i++)
+        escrever o valor da filaNum + filaNaipes na localização igual ao i
+
+        caso o valor de i = 7
+            escrever para o usuario "cartas geradas"
+            break
+}
+fim
