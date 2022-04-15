@@ -14,7 +14,7 @@ namespace exe02Classes
             FazMedia objFazMedia;
             objFazMedia = new FazMedia();
 
-            // solicitação para usuario inserir os 10 valores
+            // solicitação de entrada de 10 valores
             Console.WriteLine("Digite seus 10 valores inteiros: "); 
 
             // criação de loop para receber e amarzenar 10 valores inteiros

@@ -35,7 +35,7 @@ namespace exe02Classes
             return arrValorInt [i];
         }
 
-        public double getMediaPonderada ()
+        public float getMediaPonderada ()
         {
             return mediaPonderada;
         }
