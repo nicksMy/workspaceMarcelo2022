@@ -1,4 +1,4 @@
-// Nicolas Schüssler e Erica Cordeiro 15/04/2022
+// Nicolas Schüssler 15/04/2022
 namespace texas
 {
     public class FazLista

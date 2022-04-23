@@ -1,17 +1,17 @@
 {
   "format": 1,
   "restore": {
-    "/home/nicksmy/Documents/workspace/workspaceMarcelo2022/texasHoldem/texas/texas.csproj": {}
+    "/home/nicksmy/Documents/workspaceMarcelo2022/texasHoldem/texas/texas.csproj": {}
   },
   "projects": {
-    "/home/nicksmy/Documents/workspace/workspaceMarcelo2022/texasHoldem/texas/texas.csproj": {
+    "/home/nicksmy/Documents/workspaceMarcelo2022/texasHoldem/texas/texas.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "/home/nicksmy/Documents/workspace/workspaceMarcelo2022/texasHoldem/texas/texas.csproj",
+        "projectUniqueName": "/home/nicksmy/Documents/workspaceMarcelo2022/texasHoldem/texas/texas.csproj",
         "projectName": "texas",
-        "projectPath": "/home/nicksmy/Documents/workspace/workspaceMarcelo2022/texasHoldem/texas/texas.csproj",
+        "projectPath": "/home/nicksmy/Documents/workspaceMarcelo2022/texasHoldem/texas/texas.csproj",
         "packagesPath": "/home/nicksmy/.nuget/packages/",
-        "outputPath": "/home/nicksmy/Documents/workspace/workspaceMarcelo2022/texasHoldem/texas/obj/",
+        "outputPath": "/home/nicksmy/Documents/workspaceMarcelo2022/texasHoldem/texas/obj/",
         "projectStyle": "PackageReference",
         "configFilePaths": [
           "/home/nicksmy/.nuget/NuGet/NuGet.Config"
@@ -52,7 +52,7 @@
               "privateAssets": "all"
             }
           },
-          "runtimeIdentifierGraphPath": "/usr/share/dotnet/sdk/5.0.406/RuntimeIdentifierGraph.json"
+          "runtimeIdentifierGraphPath": "/usr/share/dotnet/sdk/5.0.407/RuntimeIdentifierGraph.json"
         }
       }
     }

@@ -1,3 +1,4 @@
+// Nicolas Schüssler 15/04/2022
 inicio {
 
     já com as 5 cartas viradas...
