@@ -1,0 +1,90 @@
+// Nicolas Schüssler 21/04/22
+
+    letra J, vale 11), uma Rainha (letra Q, vale 12) e um Rei (letra K, vale 13)
+    Os naipes (símbolos) do baralho são: espadas(♠), paus(♣), copas(♥) e ouro(♦)
+
+    1# ROYAL FLUSH
+        organizar as 7 cartas de forma crescente
+        caso tenha 5 cartas do naipe de espadas ♠
+            iniciar variavel somaCartas como inteiro
+            efetuar a soma das 5 cartas e armazenar na variavel somaCartas
+            caso o valor da variavel somaCartas for igual a 47         
+                exibir frase para o usuario "Você contém um ROYAL FLUSH"
+            caso não
+                exibir frase para o usuario "Você não contém um ROYAL FLUSH"
+
+    2# STRAIGHT FLUSH
+        organizar as 7 cartas de forma crescente
+        caso tenha 5 cartas do naipe de ouros ♦
+            iniciar variavel somaCartas como inteiro
+            efetuar a soma das 5 cartas e armazenar na variavel somaCartas
+            caso o valor da variavel somaCartas for igual a 35
+                exibir frase para o usuario "Você contém um STRAIGHT FLUSH"
+            caso não
+                exibir frase para o usuario "Você não contém um STRAIGHT FLUSH"
+
+    3# FOUR OF A KIND
+        organizar as 7 cartas de forma crescente
+        validar se entre 5 cartas as 4 primeiras contem o mesmo valor
+        caso o valor das variaveis forem iguais
+            exibir frase para o usuario "Você contém um FOUR OF A KIND"
+        caso não
+            exibir frase parao usuario "Você não contém um FOUR OF A KIND"
+
+    4# FULL HOUSE
+        organizar as 7 cartas de forma crescente
+        validar se entre as 5 cartas há dois conjuntos de mesmo valor
+        caso o valor de 3 cartas sejam iguais e o valor das 2 cartas restantes for iguais
+            exibir frase para o usuario "Você contém um FULL HOUSE"
+        caso não
+            exibir frase parao usuario "Você não contém um FULL HOUSE"
+
+    5# FLUSH
+        organizar as 7 cartas de forma crescente
+        caso tenha 5 cartas do mesmo naipe ♠, ♣, ♥, ♦
+            exibir frase para o usuario "Você contém um FLUSH"
+        caso não
+            exibir frase para o usuario "Você não contém um FLUSH"
+
+    6# STRAIGHT
+        organizar as 7 cartas de forma crescente
+        caso todas as 5 cartas sejam de valores diferentes
+            iniciar variavel index como inteiro
+            enquanto i não for igual 5
+                validar se a carta i é igual a 1+ maior que a carta seguida
+                i++
+            exibir frase para o usuario "Você contém um STRAIGHT"
+        caso não
+            exibir frase para o usuario "Você não contém um STRAIGHT"
+
+    7# THREE OF A KIND
+        organizar as 7 cartas de forma crescente
+        caso entre as 5 cartas tenha 3 cartas de mesmo valor e o valor das 2 cartas restante forem diferentes
+            exibir frase para o usuario "Você contém um THREE OF A KIND"
+        caso não
+            exibir frase para o usuario "Você não contém um THREE OF A KIND"
+
+    8# TWO PAIR
+        organizar as 7 cartas de forma crescente
+        validar se entre as 5 cartas há três conjuntos de mesmo valor
+        caso entre as 5 cartas tenha 2 cartas de mesmo valor e dentro das 3 cartas haja dois valores iguais
+            exibir frase para o usuario "Você contém um TWO PAIR"
+        caso não
+            exibir frase para o usuario "Você não contém um TWO PAIR"
+
+    9# ONE PAIR
+        organizar as 7 cartas de forma crescente
+        validar se entre as 5 cartas há um conjunto de mesmo valor
+        caso entre as 5 cartas tenha 2 cartas do mesmo valor e dentre das 3 cartas haja valores diferentes
+            exibir frase para o usuario "Você contém um ONE PAIR"
+        caso não
+            exibir frase para o usuario "Você não contém um ONE PAIR"   
+
+    10# HIGH CARD
+        organizar as 7 cartas de forma crescente
+        validar se entre as 5 cartas nenhuma delas é do mesmo valor
+        caso entre as 5 cartas tenha nenhuma repetição
+            armazenar a carta do inicio ou seja a mais alta
+            exibir frase para o usuario "Você contém um HIGH CARD"
+        caso não
+            exibir frase para o usuario "Você não contém um HIGH CARD"

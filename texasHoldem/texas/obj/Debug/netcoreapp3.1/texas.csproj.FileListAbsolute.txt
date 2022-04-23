@@ -1,0 +1,13 @@
+E:\workspaceMarcelo2022\texasHoldem\texas\bin\Debug\netcoreapp3.1\texas.exe
+E:\workspaceMarcelo2022\texasHoldem\texas\bin\Debug\netcoreapp3.1\texas.deps.json
+E:\workspaceMarcelo2022\texasHoldem\texas\bin\Debug\netcoreapp3.1\texas.runtimeconfig.json
+E:\workspaceMarcelo2022\texasHoldem\texas\bin\Debug\netcoreapp3.1\texas.runtimeconfig.dev.json
+E:\workspaceMarcelo2022\texasHoldem\texas\bin\Debug\netcoreapp3.1\texas.dll
+E:\workspaceMarcelo2022\texasHoldem\texas\bin\Debug\netcoreapp3.1\texas.pdb
+E:\workspaceMarcelo2022\texasHoldem\texas\obj\Debug\netcoreapp3.1\texas.csprojAssemblyReference.cache
+E:\workspaceMarcelo2022\texasHoldem\texas\obj\Debug\netcoreapp3.1\texas.AssemblyInfoInputs.cache
+E:\workspaceMarcelo2022\texasHoldem\texas\obj\Debug\netcoreapp3.1\texas.AssemblyInfo.cs
+E:\workspaceMarcelo2022\texasHoldem\texas\obj\Debug\netcoreapp3.1\texas.csproj.CoreCompileInputs.cache
+E:\workspaceMarcelo2022\texasHoldem\texas\obj\Debug\netcoreapp3.1\texas.dll
+E:\workspaceMarcelo2022\texasHoldem\texas\obj\Debug\netcoreapp3.1\texas.pdb
+E:\workspaceMarcelo2022\texasHoldem\texas\obj\Debug\netcoreapp3.1\texas.genruntimeconfig.cache
