@@ -1,4 +1,5 @@
-﻿// Nicolas Schüssler 15/04/2022
+﻿// Nicolas Schüssler 15/04/2022 
+// netcoreapp3.1
 using System;
 using System.Collections.Generic;
 
