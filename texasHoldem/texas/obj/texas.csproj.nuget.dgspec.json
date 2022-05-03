@@ -1,20 +1,20 @@
 {
   "format": 1,
   "restore": {
-    "/home/nicksmy/Documents/workspaceMarcelo2022/texasHoldem/texas/texas.csproj": {}
+    "D:\\workspaceGithub\\workspaceMarcelo2022\\texasHoldem\\texas\\texas.csproj": {}
   },
   "projects": {
-    "/home/nicksmy/Documents/workspaceMarcelo2022/texasHoldem/texas/texas.csproj": {
+    "D:\\workspaceGithub\\workspaceMarcelo2022\\texasHoldem\\texas\\texas.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "/home/nicksmy/Documents/workspaceMarcelo2022/texasHoldem/texas/texas.csproj",
+        "projectUniqueName": "D:\\workspaceGithub\\workspaceMarcelo2022\\texasHoldem\\texas\\texas.csproj",
         "projectName": "texas",
-        "projectPath": "/home/nicksmy/Documents/workspaceMarcelo2022/texasHoldem/texas/texas.csproj",
-        "packagesPath": "/home/nicksmy/.nuget/packages/",
-        "outputPath": "/home/nicksmy/Documents/workspaceMarcelo2022/texasHoldem/texas/obj/",
+        "projectPath": "D:\\workspaceGithub\\workspaceMarcelo2022\\texasHoldem\\texas\\texas.csproj",
+        "packagesPath": "C:\\Users\\raminstorm\\.nuget\\packages\\",
+        "outputPath": "D:\\workspaceGithub\\workspaceMarcelo2022\\texasHoldem\\texas\\obj\\",
         "projectStyle": "PackageReference",
         "configFilePaths": [
-          "/home/nicksmy/.nuget/NuGet/NuGet.Config"
+          "C:\\Users\\raminstorm\\AppData\\Roaming\\NuGet\\NuGet.Config"
         ],
         "originalTargetFrameworks": [
           "net5.0"
@@ -52,7 +52,7 @@
               "privateAssets": "all"
             }
           },
-          "runtimeIdentifierGraphPath": "/usr/share/dotnet/sdk/5.0.407/RuntimeIdentifierGraph.json"
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\5.0.407\\RuntimeIdentifierGraph.json"
         }
       }
     }

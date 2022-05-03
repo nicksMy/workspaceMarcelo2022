@@ -44,8 +44,6 @@ namespace texas
             Carta carta05 = new Carta (valorRandom.Next(1, 13), 0, $"{value}");
             Carta carta06 = new Carta (valorRandom.Next(1, 13), 0, $"{value}");
             Carta carta07 = new Carta (valorRandom.Next(1, 13), 0, $"{value}");
-            Carta carta08 = new Carta (valorRandom.Next(1, 13), 0, $"{value}");
-            Carta carta09 = new Carta (valorRandom.Next(1, 13), 0, $"{value}");
 
             carta01.setDono(1);
             carta02.setDono(1);
@@ -56,8 +54,6 @@ namespace texas
             carta06.setDono(0);
             carta07.setDono(0);
 
-            carta08.setDono(2);
-            carta09.setDono(2);
             //Console.WriteLine(String.Format("{0, -10} {1, -10} {2, -10} {3, -10} {4, -10} {5, -10}", "Numero: ", carta01.getValor(), "Naipe: ", carta01.getNaipe(), "De: ", carta01.getDono()));
 
             for (int j = 0; j < 9; j++)
