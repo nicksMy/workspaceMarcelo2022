@@ -16,50 +16,81 @@ namespace texas
 
         static void Main(string[] args)
         {   
-            Random valorRandom = new Random();
-            Type type = typeof(Naipes);
+            // game
+            // test
 
-            Array valores = type.GetEnumValues();
-            int i = valorRandom.Next(valores.Length);
-            Naipes value = (Naipes)valores.GetValue(i);
+            bool go = true;
+            int opcao = 0;
+            Console.Clear();
 
-            /*
-            Console.WriteLine("Digite o nome do Jogador 1");
-            string nomeJogador01 = Console.ReadLine();
-
-            Console.WriteLine("Digite o nome do Jogador 2");
-            string nomeJogador02 = Console.ReadLine();
-
-            Pessoa jogador01 = new Pessoa (nomeJogador01);
-            Pessoa jogador02 = new Pessoa (nomeJogador02);
-            */
-
-            Pessoa jogador01 = new Pessoa ("[NOME JOGADOR 01]");
-            Pessoa jogador02 = new Pessoa ("[NOME JOGADOR 02]");
-
-            Carta carta01 = new Carta (valorRandom.Next(1, 13), 0, $"{value}");
-            Carta carta02 = new Carta (valorRandom.Next(1, 13), 0, $"{value}");
-            Carta carta03 = new Carta (valorRandom.Next(1, 13), 0, $"{value}");
-            Carta carta04 = new Carta (valorRandom.Next(1, 13), 0, $"{value}");
-            Carta carta05 = new Carta (valorRandom.Next(1, 13), 0, $"{value}");
-            Carta carta06 = new Carta (valorRandom.Next(1, 13), 0, $"{value}");
-            Carta carta07 = new Carta (valorRandom.Next(1, 13), 0, $"{value}");
-
-            carta01.setDono(1);
-            carta02.setDono(1);
-
-            carta03.setDono(0);
-            carta04.setDono(0);
-            carta05.setDono(0);
-            carta06.setDono(0);
-            carta07.setDono(0);
-
-            //Console.WriteLine(String.Format("{0, -10} {1, -10} {2, -10} {3, -10} {4, -10} {5, -10}", "Numero: ", carta01.getValor(), "Naipe: ", carta01.getNaipe(), "De: ", carta01.getDono()));
-
-            for (int j = 0; j < 9; j++)
+            while(go)
             {
-                Console.WriteLine(String.Format("{0, -10} {1, -10} {2, -10} {3, -10} {4, -10} {5, -10}", "Numero: ", carta01.getValor(), "Naipe: ", carta01.getNaipe(), "De: ", carta01.getDono()));
+                Mostra.mostraMenu();
+                opcao = getOpcao();
+
+                switch (opcao)
+                {
+                    case 1:
+                        #region Croupie_
+
+                        Crupie crupie = new Crupie();
+                        crupie.criarCartas();
+                        Mostra.mostraCartas(crupie.getListaCartas());
+
+                        crupie.embaralhar();
+                        crupie.setDeck();
+
+                        for (int i = 0; i < 52; i++)
+                        {
+                        Carta cartaTemporaria = new Carta(crupie.getCarta());
+                        Console.WriteLine(cartaTemporaria.ToString());
+                        }
+
+                        Console.ReadKey();
+
+                        #endregion
+
+                        #region Test
+                        /*
+                        testar novo objeto
+                        carregar a partir do arquivo
+                        mostrar a lista de cartas
+
+                        construir o histograma de cartas
+                        */
+
+                        #endregion
+                        break;
+
+                    case 2:
+                        Console.WriteLine("Jogo não ainda não implementado");
+                        Console.WriteLine("Aperte qualquer tecla para continuar");
+                        Console.ReadKey();
+                        break;
+
+                    default:
+                        break;
+                }
+                Mostra.mostraReiniciar();
+                opcao = getOpcao();
+
+                // <true or false> ? <caso seja true> : <caso seja false>
+                go = opcao == 2 ? false : true; 
             }
+        }
+        public static int getOpcao()
+        {
+            int opt = 0;
+            while (true)
+            {
+                Int32.TryParse(Console.ReadLine(), out opt);
+
+                if (opt >= 1 && opt <= 2)
+                    break;
+                else
+                    Console.WriteLine("Opções validas: 1 ou 2");
+            }
+            return opt;
         }
     }
 }

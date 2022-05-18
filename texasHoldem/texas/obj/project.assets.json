@@ -8,19 +8,19 @@
     "net5.0": []
   },
   "packageFolders": {
-    "C:\\Users\\raminstorm\\.nuget\\packages\\": {}
+    "C:\\Users\\raminstorm-note\\.nuget\\packages\\": {}
   },
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "D:\\workspaceGithub\\workspaceMarcelo2022\\texasHoldem\\texas\\texas.csproj",
+      "projectUniqueName": "C:\\Users\\raminstorm-note\\Documents\\GitHub\\workspaceMarcelo2022\\texasHoldem\\texas\\texas.csproj",
       "projectName": "texas",
-      "projectPath": "D:\\workspaceGithub\\workspaceMarcelo2022\\texasHoldem\\texas\\texas.csproj",
-      "packagesPath": "C:\\Users\\raminstorm\\.nuget\\packages\\",
-      "outputPath": "D:\\workspaceGithub\\workspaceMarcelo2022\\texasHoldem\\texas\\obj\\",
+      "projectPath": "C:\\Users\\raminstorm-note\\Documents\\GitHub\\workspaceMarcelo2022\\texasHoldem\\texas\\texas.csproj",
+      "packagesPath": "C:\\Users\\raminstorm-note\\.nuget\\packages\\",
+      "outputPath": "C:\\Users\\raminstorm-note\\Documents\\GitHub\\workspaceMarcelo2022\\texasHoldem\\texas\\obj\\",
       "projectStyle": "PackageReference",
       "configFilePaths": [
-        "C:\\Users\\raminstorm\\AppData\\Roaming\\NuGet\\NuGet.Config"
+        "C:\\Users\\raminstorm-note\\AppData\\Roaming\\NuGet\\NuGet.Config"
       ],
       "originalTargetFrameworks": [
         "net5.0"
@@ -58,7 +58,7 @@
             "privateAssets": "all"
           }
         },
-        "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\5.0.407\\RuntimeIdentifierGraph.json"
+        "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\5.0.408\\RuntimeIdentifierGraph.json"
       }
     }
   }

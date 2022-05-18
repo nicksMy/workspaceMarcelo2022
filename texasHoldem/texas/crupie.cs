@@ -7,39 +7,66 @@ namespace texas
     public class Crupie
     {
         // estado
-        private List<Carta> listaCartas = new List<Carta>();
-        private Stack<Carta> deck = new Stack<Carta>();
+        private List<Carta> listaCartas;
+        private Stack<Carta> deck ;
 
         public Crupie () // construtor
         {
-
+            listaCartas = new List<Carta>();
+            deck = new Stack<Carta>();
         }
 
         public void criarCartas ()
         {
-            
-        }
-        public void embaralhar (int []arr, int n)
-        {
-            Random r = new Random();
-
-            for (int i = n - 1; i > 0; i--)
+            for (int i = 0; i < 13; i++)
             {
-                int j =  r.Next(0, i + 1);
+                Carta carta01 = new Carta((i + 1), 0, "Hearts");
+                Carta carta02 = new Carta((i + 1), 0, "Diamonds");
+                Carta carta03 = new Carta((i + 1), 0, "Clubs");
+                Carta carta04 = new Carta((i + 1), 0, "Spades");
 
-                int temp = arr[i];
-                arr[i] = arr[j];
-                arr[j] = temp;
+                listaCartas.Add(carta01);
+                listaCartas.Add(carta02);
+                listaCartas.Add(carta03);
+                listaCartas.Add(carta04);
             }
         }
+        
+        public void embaralhar ()
+        {
+            Random ran = new Random();
 
+            for (int i = listaCartas.Count - 1; i > 0; i--)
+            {
+                int j =  ran.Next(0, i + 1);
+
+                Carta temp = new Carta(listaCartas[i]);
+                listaCartas[i] = listaCartas[j];
+                listaCartas[j] = temp;
+            }
+        }
+        
         // set / get
         // encapsulamento
 
-        // get
-        public void getCarta ()
+        // set
+        public void setDeck ()
         {
-            
+            for (int i = 0; i < listaCartas.Count; i++)
+            {
+                deck.Push(listaCartas[i]);
+            }
+        }
+
+        // get
+        public List<Carta> getListaCartas ()
+        {
+            return listaCartas;
+        }
+
+        public Carta getCarta ()
+        {
+            return deck.Pop();
         }
     }
 }

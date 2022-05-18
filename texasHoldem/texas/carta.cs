@@ -1,4 +1,7 @@
 // Nicolas Schüssler 20/04/2022
+using System;
+using System.Collections.Generic;
+
 namespace texas
 {
     public class Carta
@@ -15,13 +18,21 @@ namespace texas
             naipe = _naipe;
         }
 
+        public Carta (Carta _carta)
+        {
+            valor = _carta.getValor();
+            dono = _carta.getDono();
+            naipe = _carta.getNaipe();
+        }
+
+
         // set / get
         // encapsulamento
 
         // set
-        public void setDono (int d)
+        public void setDono (int _dono)
         {
-            dono = d;
+            dono = _dono;
         }
 
         // get
@@ -38,6 +49,14 @@ namespace texas
         public string getNaipe ()
         {
             return naipe;
+        }
+
+        public override string ToString()
+        {
+            string textoCarta = "Naipe: " + naipe;
+            textoCarta += "\tValue: " + valor;
+            textoCarta += "\tDono" + dono;
+            return textoCarta;
         }
     }
 }
