@@ -63,3 +63,4 @@ C:\Users\raminstorm-note\Documents\GitHub\workspaceMarcelo2022\texasHoldem\texas
 C:\Users\raminstorm-note\Documents\GitHub\workspaceMarcelo2022\texasHoldem\texas\obj\Debug\net5.0\ref\texas.dll
 C:\Users\raminstorm-note\Documents\GitHub\workspaceMarcelo2022\texasHoldem\texas\obj\Debug\net5.0\texas.pdb
 C:\Users\raminstorm-note\Documents\GitHub\workspaceMarcelo2022\texasHoldem\texas\obj\Debug\net5.0\texas.genruntimeconfig.cache
+C:\Users\7695365.UNIVALI\Downloads\workspaceMarcelo2022-master\workspaceMarcelo2022-master\texasHoldem\texas\obj\Debug\net5.0\texas.pdb

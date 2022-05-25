@@ -58,7 +58,6 @@ namespace texas
 
                         construir o histograma de cartas
                         */
-
                         #endregion
                         break;
 

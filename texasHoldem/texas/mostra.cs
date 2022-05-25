@@ -1,4 +1,4 @@
-// Nicolas Schüssler 11/05/22
+// Nicolas Schüssler 11/05/2022
 using System;
 using System.Collections.Generic;
 using System.Linq;
@@ -63,6 +63,7 @@ namespace texas
             Console.WriteLine("-----------------------------------------------------");
             Console.WriteLine("Aperte qualquer tecla para continuar");
             Console.WriteLine("-----------------------------------------------------");
+            Console.ReadKey();
         }
     }
 }

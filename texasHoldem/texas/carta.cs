@@ -25,7 +25,6 @@ namespace texas
             naipe = _carta.getNaipe();
         }
 
-
         // set / get
         // encapsulamento
 

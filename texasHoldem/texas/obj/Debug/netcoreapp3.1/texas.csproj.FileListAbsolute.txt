@@ -11,3 +11,16 @@ E:\workspaceMarcelo2022\texasHoldem\texas\obj\Debug\netcoreapp3.1\texas.csproj.C
 E:\workspaceMarcelo2022\texasHoldem\texas\obj\Debug\netcoreapp3.1\texas.dll
 E:\workspaceMarcelo2022\texasHoldem\texas\obj\Debug\netcoreapp3.1\texas.pdb
 E:\workspaceMarcelo2022\texasHoldem\texas\obj\Debug\netcoreapp3.1\texas.genruntimeconfig.cache
+C:\Users\7695365.UNIVALI\Downloads\workspaceMarcelo2022-master\workspaceMarcelo2022-master\texasHoldem\texas\obj\Debug\netcoreapp3.1\texas.csprojAssemblyReference.cache
+C:\Users\7695365.UNIVALI\Downloads\workspaceMarcelo2022-master\workspaceMarcelo2022-master\texasHoldem\texas\obj\Debug\netcoreapp3.1\texas.AssemblyInfoInputs.cache
+C:\Users\7695365.UNIVALI\Downloads\workspaceMarcelo2022-master\workspaceMarcelo2022-master\texasHoldem\texas\obj\Debug\netcoreapp3.1\texas.AssemblyInfo.cs
+C:\Users\7695365.UNIVALI\Downloads\workspaceMarcelo2022-master\workspaceMarcelo2022-master\texasHoldem\texas\obj\Debug\netcoreapp3.1\texas.csproj.CoreCompileInputs.cache
+C:\Users\7695365.UNIVALI\Downloads\workspaceMarcelo2022-master\workspaceMarcelo2022-master\texasHoldem\texas\obj\Debug\netcoreapp3.1\texas.dll
+C:\Users\7695365.UNIVALI\Downloads\workspaceMarcelo2022-master\workspaceMarcelo2022-master\texasHoldem\texas\obj\Debug\netcoreapp3.1\texas.pdb
+C:\Users\7695365.UNIVALI\Downloads\workspaceMarcelo2022-master\workspaceMarcelo2022-master\texasHoldem\texas\bin\Debug\netcoreapp3.1\texas.exe
+C:\Users\7695365.UNIVALI\Downloads\workspaceMarcelo2022-master\workspaceMarcelo2022-master\texasHoldem\texas\bin\Debug\netcoreapp3.1\texas.deps.json
+C:\Users\7695365.UNIVALI\Downloads\workspaceMarcelo2022-master\workspaceMarcelo2022-master\texasHoldem\texas\bin\Debug\netcoreapp3.1\texas.runtimeconfig.json
+C:\Users\7695365.UNIVALI\Downloads\workspaceMarcelo2022-master\workspaceMarcelo2022-master\texasHoldem\texas\bin\Debug\netcoreapp3.1\texas.runtimeconfig.dev.json
+C:\Users\7695365.UNIVALI\Downloads\workspaceMarcelo2022-master\workspaceMarcelo2022-master\texasHoldem\texas\bin\Debug\netcoreapp3.1\texas.dll
+C:\Users\7695365.UNIVALI\Downloads\workspaceMarcelo2022-master\workspaceMarcelo2022-master\texasHoldem\texas\bin\Debug\netcoreapp3.1\texas.pdb
+C:\Users\7695365.UNIVALI\Downloads\workspaceMarcelo2022-master\workspaceMarcelo2022-master\texasHoldem\texas\obj\Debug\netcoreapp3.1\texas.genruntimeconfig.cache

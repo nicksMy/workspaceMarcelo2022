@@ -1,12 +1,14 @@
+// Nicolas Schüssler 18/05/2022
 using System;
 using System.IO;
 using System.Collections.Generic;
 using System.Linq;
 using System.Threading.Tasks;
+//using System.Collections.IEnumerable;
 
 namespace texas
 {
-    public class carrega
+    public class Carrega
     {
         public static List<Carta> carregaMao()
         {
@@ -25,11 +27,11 @@ namespace texas
                 string[] linha = s.Split(';');
                 {
                     Carta carta = new Carta
-                    {
-                        int.Parse(line[0]);
-                        int.Parse(line[1]);
+                    (
+                        int.Parse(linha[0]),
+                        int.Parse(linha[1]),
                         linha[2]
-                    };
+                    );
                     cartas.Add(carta);
                 }
             }
