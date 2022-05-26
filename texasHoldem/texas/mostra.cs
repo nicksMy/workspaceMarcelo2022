@@ -1,4 +1,6 @@
-// Nicolas Schüssler 11/05/2022
+// Erica Cordeiro & Nicolas Schüssler 11/05/2022
+
+// classe para exibir menus e dados na tela
 using System;
 using System.Collections.Generic;
 using System.Linq;
@@ -8,6 +10,7 @@ namespace texas
 {
     public class Mostra
     {
+        // exibir opções de modos para rodar o programa
         public static void mostraMenu ()
         {
             Console.Clear();
@@ -16,6 +19,8 @@ namespace texas
             Console.WriteLine("1 - Testar\n2 - Jogar\n");
             Console.WriteLine("-----------------------------------------------------");
         }
+
+        // exibir opções de modos de finalizar o programa
         public static void mostraReiniciar ()
         {
             Console.Clear();
@@ -25,6 +30,7 @@ namespace texas
             Console.WriteLine("-----------------------------------------------------");
         }
 
+        // exibir cartas geradas pelo crupie
         public static void mostraCartas (List<Carta> cartas)
         {
             Console.Clear();
@@ -41,6 +47,7 @@ namespace texas
             Console.WriteLine("-----------------------------------------------------");
         }
 
+        // exibir histograma referente as cartas geradas
         public static void mostraHistograma (List<List<Carta>> histo)
         {
             int ctrl = 0;

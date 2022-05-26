@@ -8,19 +8,19 @@
     ".NETCoreApp,Version=v3.1": []
   },
   "packageFolders": {
-    "C:\\Users\\7695365.UNIVALI\\.nuget\\packages\\": {}
+    "C:\\Users\\7695365\\.nuget\\packages\\": {}
   },
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "C:\\Users\\7695365.UNIVALI\\Downloads\\workspaceMarcelo2022-master\\workspaceMarcelo2022-master\\texasHoldem\\texas\\texas.csproj",
+      "projectUniqueName": "E:\\workspaceMarcelo2022-master\\workspaceMarcelo2022-master\\texasHoldem\\texas\\texas.csproj",
       "projectName": "texas",
-      "projectPath": "C:\\Users\\7695365.UNIVALI\\Downloads\\workspaceMarcelo2022-master\\workspaceMarcelo2022-master\\texasHoldem\\texas\\texas.csproj",
-      "packagesPath": "C:\\Users\\7695365.UNIVALI\\.nuget\\packages\\",
-      "outputPath": "C:\\Users\\7695365.UNIVALI\\Downloads\\workspaceMarcelo2022-master\\workspaceMarcelo2022-master\\texasHoldem\\texas\\obj\\",
+      "projectPath": "E:\\workspaceMarcelo2022-master\\workspaceMarcelo2022-master\\texasHoldem\\texas\\texas.csproj",
+      "packagesPath": "C:\\Users\\7695365\\.nuget\\packages\\",
+      "outputPath": "E:\\workspaceMarcelo2022-master\\workspaceMarcelo2022-master\\texasHoldem\\texas\\obj\\",
       "projectStyle": "PackageReference",
       "configFilePaths": [
-        "C:\\Users\\7695365.UNIVALI\\AppData\\Roaming\\NuGet\\NuGet.Config"
+        "C:\\Users\\7695365\\AppData\\Roaming\\NuGet\\NuGet.Config"
       ],
       "originalTargetFrameworks": [
         "netcoreapp3.1"
@@ -56,7 +56,7 @@
             "privateAssets": "all"
           }
         },
-        "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\3.1.406\\RuntimeIdentifierGraph.json"
+        "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\3.1.409\\RuntimeIdentifierGraph.json"
       }
     }
   }

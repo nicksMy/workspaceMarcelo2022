@@ -1,4 +1,6 @@
-// Nicolas Schüssler 20/04/2022
+// Erica Cordeiro & Nicolas Schüssler 20/04/2022
+
+// classe para representar um jogador no simulador
 using System;
 using System.Collections.Generic;
 

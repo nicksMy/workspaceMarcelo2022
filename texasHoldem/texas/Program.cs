@@ -1,4 +1,7 @@
-﻿// Nicolas Schüssler 20/04/2022
+﻿// Erica Cordeiro & Nicolas Schüssler 20/04/2022
+
+// classe estabelecendo o ponto de entrada do programa
+// onde é iniciado a execução do mesmo
 using System;
 using System.Collections.Generic;
 
@@ -6,33 +9,28 @@ namespace texas
 {
     class Program
     {
-        public enum Naipes
-            {
-                Espadas,
-                Paus,
-                Copas,
-                Ouros
-            }
-
+        // ponto de entrada do programa
         static void Main(string[] args)
         {   
-            // game
-            // test
-
+            // game test
             bool go = true;
             int opcao = 0;
             Console.Clear();
 
+            // enquanto a opção selecionada for true
             while(go)
             {
+                // mostra o menu e coleta a escolha
                 Mostra.mostraMenu();
                 opcao = getOpcao();
 
                 switch (opcao)
                 {
+                    // caso da opção testar
                     case 1:
+                        // região para criação do crupie e suas ações
                         #region Croupie_
-
+                        /*
                         Crupie crupie = new Crupie();
                         crupie.criarCartas();
                         Mostra.mostraCartas(crupie.getListaCartas());
@@ -47,29 +45,38 @@ namespace texas
                         }
 
                         Console.ReadKey();
-
+                        */
                         #endregion
 
+                        // região para teste com o arquivo texto utilizando o histograma
                         #region Test
-                        /*
-                        testar novo objeto
-                        carregar a partir do arquivo
-                        mostrar a lista de cartas
 
-                        construir o histograma de cartas
-                        */
+                        Teste teste = new Teste();
+                        teste.carregaCartas();
+                        Mostra.mostraCartas(teste.getCartas());
+
+                        Histograma histo = new Histograma(teste.getCartas());
+                        histo.contaValores();
+                        Mostra.mostraHistograma(histo.getHistograma());
+
+                        Valida valida = new Valida();
+                        valida.royalFlush(histo.getHistograma());
+                        Console.ReadKey();
                         #endregion
                         break;
 
+                    // caso da opção jogar
                     case 2:
                         Console.WriteLine("Jogo não ainda não implementado");
                         Console.WriteLine("Aperte qualquer tecla para continuar");
                         Console.ReadKey();
                         break;
 
+                    // caso não tenha um caso dentro das opções
                     default:
                         break;
                 }
+                // limpar console e mostrar opções de reinicialização
                 Mostra.mostraReiniciar();
                 opcao = getOpcao();
 
@@ -77,6 +84,7 @@ namespace texas
                 go = opcao == 2 ? false : true; 
             }
         }
+        // pegar opção até que seja uma das escolhas validas
         public static int getOpcao()
         {
             int opt = 0;

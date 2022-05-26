@@ -1,4 +1,6 @@
-// Nicolas Schüssler 27/04/2022
+// Erica Cordeiro & Nicolas Schüssler 27/04/2022
+
+// classe para representar o crupie vulgo quem dirige a mesa de jogo
 using System;
 using System.Collections.Generic;
 
@@ -16,6 +18,7 @@ namespace texas
             deck = new Stack<Carta>();
         }
 
+        // procedimento para criação das cartas
         public void criarCartas ()
         {
             for (int i = 0; i < 13; i++)
@@ -32,6 +35,7 @@ namespace texas
             }
         }
         
+        // procediemtno para embaralhamento das cartas geradas
         public void embaralhar ()
         {
             Random ran = new Random();
