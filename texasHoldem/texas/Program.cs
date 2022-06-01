@@ -59,8 +59,10 @@ namespace texas
                         histo.contaValores();
                         Mostra.mostraHistograma(histo.getHistograma());
 
-                        Valida valida = new Valida();
-                        valida.royalFlush(histo.getHistograma());
+                        Valida validaRank = new Valida();
+
+                        // validação do ranquamento adquirido 
+                        validaRank.HighCard(teste.getCartas());
                         Console.ReadKey();
                         #endregion
                         break;

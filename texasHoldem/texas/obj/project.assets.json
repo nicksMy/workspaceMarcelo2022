@@ -1,35 +1,36 @@
 {
   "version": 3,
   "targets": {
-    ".NETCoreApp,Version=v3.1": {}
+    "net5.0": {}
   },
   "libraries": {},
   "projectFileDependencyGroups": {
-    ".NETCoreApp,Version=v3.1": []
+    "net5.0": []
   },
   "packageFolders": {
-    "C:\\Users\\7695365\\.nuget\\packages\\": {}
+    "C:\\Users\\raminstorm-note\\.nuget\\packages\\": {}
   },
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "E:\\workspaceMarcelo2022-master\\workspaceMarcelo2022-master\\texasHoldem\\texas\\texas.csproj",
+      "projectUniqueName": "C:\\Users\\raminstorm-note\\Documents\\GitHub\\workspaceMarcelo2022\\texasHoldem\\texas\\texas.csproj",
       "projectName": "texas",
-      "projectPath": "E:\\workspaceMarcelo2022-master\\workspaceMarcelo2022-master\\texasHoldem\\texas\\texas.csproj",
-      "packagesPath": "C:\\Users\\7695365\\.nuget\\packages\\",
-      "outputPath": "E:\\workspaceMarcelo2022-master\\workspaceMarcelo2022-master\\texasHoldem\\texas\\obj\\",
+      "projectPath": "C:\\Users\\raminstorm-note\\Documents\\GitHub\\workspaceMarcelo2022\\texasHoldem\\texas\\texas.csproj",
+      "packagesPath": "C:\\Users\\raminstorm-note\\.nuget\\packages\\",
+      "outputPath": "C:\\Users\\raminstorm-note\\Documents\\GitHub\\workspaceMarcelo2022\\texasHoldem\\texas\\obj\\",
       "projectStyle": "PackageReference",
       "configFilePaths": [
-        "C:\\Users\\7695365\\AppData\\Roaming\\NuGet\\NuGet.Config"
+        "C:\\Users\\raminstorm-note\\AppData\\Roaming\\NuGet\\NuGet.Config"
       ],
       "originalTargetFrameworks": [
-        "netcoreapp3.1"
+        "net5.0"
       ],
       "sources": {
         "https://api.nuget.org/v3/index.json": {}
       },
       "frameworks": {
-        "netcoreapp3.1": {
+        "net5.0": {
+          "targetAlias": "net5.0",
           "projectReferences": {}
         }
       },
@@ -40,7 +41,8 @@
       }
     },
     "frameworks": {
-      "netcoreapp3.1": {
+      "net5.0": {
+        "targetAlias": "net5.0",
         "imports": [
           "net461",
           "net462",
@@ -56,7 +58,7 @@
             "privateAssets": "all"
           }
         },
-        "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\3.1.409\\RuntimeIdentifierGraph.json"
+        "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\5.0.408\\RuntimeIdentifierGraph.json"
       }
     }
   }

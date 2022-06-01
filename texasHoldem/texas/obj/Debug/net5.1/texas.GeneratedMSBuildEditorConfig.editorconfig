@@ -1,5 +1,5 @@
 is_global = true
-build_property.TargetFramework = net5.0
+build_property.TargetFramework = net5.1
 build_property.TargetPlatformMinVersion = 
 build_property.UsingMicrosoftNETSdkWeb = 
 build_property.ProjectTypeGuids = 
@@ -7,4 +7,4 @@ build_property.PublishSingleFile =
 build_property.IncludeAllContentForSelfExtract = 
 build_property._SupportedPlatformList = Android,iOS,Linux,macOS,Windows
 build_property.RootNamespace = texas
-build_property.ProjectDir = C:\Users\raminstorm-note\Documents\GitHub\workspaceMarcelo2022\texasHoldem\texas\
+build_property.ProjectDir = c:\Users\raminstorm-note\Documents\GitHub\workspaceMarcelo2022\texasHoldem\texas\
