@@ -61,8 +61,20 @@ namespace texas
 
                         Valida validaRank = new Valida();
 
-                        // validação do ranquamento adquirido 
+                        // validação dos possíveis ranquamentos
+
+                        // High Card
                         validaRank.HighCard(teste.getCartas());
+
+                        // One Pair
+                        validaRank.OnePair(teste.getCartas());
+
+                        // Two Pair
+                        validaRank.TwoPair(teste.getCartas());
+
+                        // Three Of a Kind
+                        validaRank.ThreeOfaKind(teste.getCartas());
+
                         Console.ReadKey();
                         #endregion
                         break;

@@ -1,0 +1,7 @@
+9;0;Spades;
+9;0;Hearts;
+9;1;Diamonds;
+3;1;Clubs;
+8;1;Clubs;
+5;1;Hearts;
+7;1;Spades;
