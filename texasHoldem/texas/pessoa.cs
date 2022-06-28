@@ -12,7 +12,8 @@ namespace texas
         private string nome;
         private List<Carta> mao;
 
-        public Pessoa (string _nome) // construtor
+        // construtor
+        public Pessoa (string _nome)
         {
             nome = _nome;
             mao = new List<Carta>();
@@ -22,7 +23,7 @@ namespace texas
         // encapsulamento
 
         // set
-        public void setCart (Carta _carta)
+        public void setCarta (Carta _carta)
         {
             mao.Add(_carta);
         }

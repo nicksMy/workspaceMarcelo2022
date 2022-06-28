@@ -1,0 +1,7 @@
+4;0;Clubs
+12;1;Clubs
+2;1;Hearts
+10;0;Clubs
+3;1;Clubs
+6;1;Hearts
+9;1;Clubs

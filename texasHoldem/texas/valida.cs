@@ -172,7 +172,46 @@ namespace texas
         // procedimento para validação para identificação Full House
         public void FullHouse (List<Carta> Mao)
         {
+            Carta temp01 = new Carta(0, 0, "");
+            Carta temp02 = new Carta(0, 0, "");
+            Carta primeiroPar = new Carta(0, 0, "");
             
+            int conta = 0;
+            int segundoPar = 0;
+
+            bool primeiro = false;
+            bool segundo = false;
+
+            foreach (Carta carta in Mao)
+            {
+                for (int c = 0; c < Mao.Count; c++)
+                {
+                    if (carta.getValor() == Mao[c].getValor())
+                    {
+                        conta++;
+                    }
+                }
+
+                if (conta == 2 && primeiro == false)
+                {
+                    primeiroPar = carta;
+                    primeiro = true;
+                }
+
+                bool par01 = conta == 2;
+
+                if (conta == 2 && primeiro == true)
+                {
+                    if (carta.getValor() != primeiroPar.getValor())
+                    {
+                        segundoPar = carta.getValor();
+                        segundo = true;
+                    }
+                }
+
+                conta = 0;
+            }
+            Console.WriteLine($"\n- - - F U L L  H O U S E - - -\n\nSua sequencia de cartas do Full House é: {primeiroPar.getValor()} {segundoPar}");
         }
 
         // procedimento para validação para identificação Four-of-a-Kind

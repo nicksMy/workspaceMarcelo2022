@@ -10,7 +10,8 @@ namespace texas
         // estados
         private List<Carta> listaCarta;
 
-        public Teste () // construtor
+        // construtor
+        public Teste ()
         {
             listaCarta = new List<Carta>();
         }

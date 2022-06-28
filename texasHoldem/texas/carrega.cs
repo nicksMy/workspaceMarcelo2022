@@ -15,11 +15,15 @@ namespace texas
         // função solicitando o nome do arquivo
         public static List<Carta> carregaMao()
         {
+            // criação de lista
             List<Carta> cartas = new List<Carta>();
             string pathFile = Directory.GetCurrentDirectory();
             
+            // mensagem para inserir o nome do arquivo desejado para carregar e ser usado em futuro teste
             Console.WriteLine("\nDigite o nome do arquivo");
-            
+
+            // adição do caminho para carregamento dos arquivos texto para teste
+            // posterior leitura e adição do arquivo texto
             pathFile += "\\arquivoCartas\\";
             pathFile += Console.ReadLine();
 
@@ -30,6 +34,7 @@ namespace texas
             {
                 string[] linha = s.Split(';');
                 {
+                    // criação de um novo objeto Carta
                     Carta carta = new Carta
                     (
                         int.Parse(linha[0]),

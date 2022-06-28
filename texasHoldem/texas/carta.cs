@@ -13,7 +13,8 @@ namespace texas
         private int dono;
         private string naipe;
 
-        public Carta (int _valor, int _dono, string _naipe) // construtor
+        // construtor
+        public Carta (int _valor, int _dono, string _naipe)
         {
             valor = _valor;
             dono = _dono;
@@ -52,7 +53,7 @@ namespace texas
             return naipe;
         }
 
-        public override string ToString()
+        public override string paraString()
         {
             string textoCarta = "Naipe: " + naipe;
             textoCarta += "\tValue: " + valor;

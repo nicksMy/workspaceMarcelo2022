@@ -10,12 +10,15 @@ namespace texas
     {
         // estado
         private List<Carta> listaCartas;
-        private Stack<Carta> deck ;
+        private Stack<Carta> deck;
+        private List<Carta> mesa;
 
-        public Crupie () // construtor
+        // construtor
+        public Crupie ()
         {
             listaCartas = new List<Carta>();
             deck = new Stack<Carta>();
+            mesa = new List<Carta>();
         }
 
         // procedimento para criação das cartas
@@ -23,11 +26,13 @@ namespace texas
         {
             for (int i = 0; i < 13; i++)
             {
-                Carta carta01 = new Carta((i + 1), 0, "Hearts");
-                Carta carta02 = new Carta((i + 1), 0, "Diamonds");
-                Carta carta03 = new Carta((i + 1), 0, "Clubs");
-                Carta carta04 = new Carta((i + 1), 0, "Spades");
+                // criações de objetos Carta
+                Carta carta01 = new Carta((i + 1), 1, "Hearts");
+                Carta carta02 = new Carta((i + 1), 1, "Diamonds");
+                Carta carta03 = new Carta((i + 1), 1, "Clubs");
+                Carta carta04 = new Carta((i + 1), 1, "Spades");
 
+                // adição das cartas criadas para a lista das mesmas
                 listaCartas.Add(carta01);
                 listaCartas.Add(carta02);
                 listaCartas.Add(carta03);
@@ -38,13 +43,17 @@ namespace texas
         // procediemtno para embaralhamento das cartas geradas
         public void embaralhar ()
         {
+            // criação de um novo objeto Random
             Random ran = new Random();
 
             for (int i = listaCartas.Count - 1; i > 0; i--)
             {
                 int j =  ran.Next(0, i + 1);
 
+                // criação de um novo objeto Carta para utilização temporaria
                 Carta temp = new Carta(listaCartas[i]);
+
+                // sistema para aleatorizar as cartas entre si
                 listaCartas[i] = listaCartas[j];
                 listaCartas[j] = temp;
             }
@@ -62,6 +71,14 @@ namespace texas
             }
         }
 
+        public void setMesa ()
+        {
+            for (int i = 0; i < 5; i++)
+            {
+                mesa.Add(deck.Pop());
+            }
+        }
+
         // get
         public List<Carta> getListaCartas ()
         {
@@ -71,6 +88,11 @@ namespace texas
         public Carta getCarta ()
         {
             return deck.Pop();
+        }
+
+        public List<Carta> getMesa ()
+        {
+            return mesa;
         }
     }
 }

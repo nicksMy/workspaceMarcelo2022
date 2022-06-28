@@ -39,7 +39,7 @@ namespace texas
             Console.WriteLine("-----------------------------------------------------");
             foreach (var item in cartas)
             {
-                string temporaria = item.ToString();
+                string temporaria = item.paraString();
                 Console.WriteLine(temporaria);
             }
             Console.WriteLine("-----------------------------------------------------");
@@ -63,9 +63,40 @@ namespace texas
                 {
                     Console.WriteLine($"Cartas no index: {ctrl}");
                     for (int i = 0; i < list.Count; i++)
-                        Console.WriteLine("\t" + list[i].ToString());
+                        Console.WriteLine("\t" + list[i].paraString());
                 }
                 ctrl++;
+            }
+            Console.WriteLine("-----------------------------------------------------");
+            Console.WriteLine("Aperte qualquer tecla para continuar");
+            Console.WriteLine("-----------------------------------------------------");
+            Console.ReadKey();
+        }
+
+        // exibir input dos jogadores
+        // mostrar a mesa e as mãos
+        public static void mostraJogo (Crupie c, Pessoa p1, Pessoa p2)
+        {
+            Console.Clear();
+            Console.WriteLine("-----------------------------------------------------");
+            Console.WriteLine("JOGO");
+            Console.WriteLine("-----------------------------------------------------");
+            Console.WriteLine("Nome do jogador 1 (P1): " + p1.getNome());
+            foreach (var carta in p1.getMao())
+            {
+                Console.WriteLine(carta.paraString());
+            }
+            Console.WriteLine("-----------------------------------------------------");
+            Console.WriteLine("Cartas da mesa: ");
+            foreach (var carta in c.getMesa())
+            {
+                Console.WriteLine(carta.paraString());
+            }
+            Console.WriteLine("-----------------------------------------------------");
+            Console.WriteLine("Nome do jogador 2 (P2): " + p2.getNome());
+            foreach (var carta in p2.getMao())
+            {
+                Console.WriteLine(carta.paraString());
             }
             Console.WriteLine("-----------------------------------------------------");
             Console.WriteLine("Aperte qualquer tecla para continuar");

@@ -26,9 +26,9 @@ namespace texas
 
                 switch (opcao)
                 {
-                    // caso da opção testar
+                    //### caso da opção testar ###
                     case 1:
-                        // região para criação do crupie e suas ações
+                        //### região para criação do crupie e suas ações ###
                         #region Croupie_
                         /*
                         Crupie crupie = new Crupie();
@@ -41,27 +41,29 @@ namespace texas
                         for (int i = 0; i < 52; i++)
                         {
                         Carta cartaTemporaria = new Carta(crupie.getCarta());
-                        Console.WriteLine(cartaTemporaria.ToString());
+                        Console.WriteLine(cartaTemporaria.paraString());
                         }
 
                         Console.ReadKey();
                         */
                         #endregion
 
-                        // região para teste com o arquivo texto utilizando o histograma
-                        #region Test
+                        //### ------------------------------------------------------- ###
+                        //### região para teste com o arquivo texto utilizando o histograma ###
+                        #region Test_
 
+                        // criação de um novo objeto Teste
                         Teste teste = new Teste();
                         teste.carregaCartas();
                         Mostra.mostraCartas(teste.getCartas());
 
+                        // criação de um novo objeto Histograma
                         Histograma histo = new Histograma(teste.getCartas());
                         histo.contaValores();
                         Mostra.mostraHistograma(histo.getHistograma());
 
+                        // criação de um novo objeto Valida para efetuar os ranqueamentos implementados
                         Valida validaRank = new Valida();
-
-                        // validação dos possíveis ranquamentos
 
                         // High Card
                         validaRank.HighCard(teste.getCartas());
@@ -76,17 +78,26 @@ namespace texas
                         validaRank.ThreeOfaKind(teste.getCartas());
 
                         Console.ReadKey();
+                        
+                        //### fim da região de teste ###
                         #endregion
-                        break;
 
-                    // caso da opção jogar
+                        //### ------------------------------------------------------- ###
+
+                        break;
+                
+                    //### caso da opção jogar ###
                     case 2:
-                        Console.WriteLine("Jogo não ainda não implementado");
-                        Console.WriteLine("Aperte qualquer tecla para continuar");
-                        Console.ReadKey();
+                        // criação de um novo objeto Jogo
+                        Jogo jogo = new Jogo();
+
+                        // bloco com ações utilizando novo jogo
+                        jogo.Inicio();
+                        jogo.mostraJogo();
+                        jogo.avaliajogo();
                         break;
 
-                    // caso não tenha um caso dentro das opções
+                    //### caso não tenha um caso dentro das opções ###
                     default:
                         break;
                 }
@@ -103,13 +114,12 @@ namespace texas
         {
             int opt = 0;
             while (true)
-            {
+            {   
+                // leitura e armazenamento de dado pós resultado da tentativa de passar para Int32
                 Int32.TryParse(Console.ReadLine(), out opt);
 
-                if (opt >= 1 && opt <= 2)
-                    break;
-                else
-                    Console.WriteLine("Opções validas: 1 ou 2");
+                if (opt >= 1 && opt <= 2) break;
+                else Console.WriteLine("Opções validas: 1 ou 2");
             }
             return opt;
         }
