@@ -3,7 +3,8 @@
 // classe para rodar os testes de reconhecimento das cartas
 using System;
 using System.Collections.Generic;
-namespace texas
+
+namespace texas.code
 {
     public class Teste
     {

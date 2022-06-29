@@ -3,7 +3,8 @@
 // classe para obter estrutura intermediária histograma
 using System;
 using System.Collections.Generic;
-namespace texas
+
+namespace texas.code
 {
     public class Histograma
     {

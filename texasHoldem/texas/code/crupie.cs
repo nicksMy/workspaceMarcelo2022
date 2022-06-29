@@ -4,7 +4,7 @@
 using System;
 using System.Collections.Generic;
 
-namespace texas
+namespace texas.code
 {
     public class Crupie
     {

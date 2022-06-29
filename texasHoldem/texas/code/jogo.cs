@@ -4,7 +4,7 @@
 using System;
 using System.Collections.Generic;
 
-namespace texas
+namespace texas.code
 {
     public class Jogo
     {
@@ -16,6 +16,7 @@ namespace texas
         // construtor
         public Jogo ()
         {
+            // criação dos objetos pertencentes a uma partida do jogo
             crupie = new Crupie();
             p1 = new Pessoa("P1");
             p2 = new Pessoa("P2");
@@ -23,11 +24,13 @@ namespace texas
         
         public void Inicio ()
         {
+            // ações do objeto crupie
             crupie.criarCartas();
             crupie.embaralhar();
             crupie.setDeck();
 
-            Carta carta = new Carta(crupie.getCarta());
+            // criação dos novos objetos Carta para cada jogador
+            carta = new Carta(crupie.getCarta());
             carta.setDono(0);
             p1.setCarta(carta);
             
@@ -43,17 +46,20 @@ namespace texas
             carta.setDono(0);
             p2.setCarta(carta);
 
+            // pós criação das cartas dos jogadores setado as cartas da mesa
             crupie.setMesa();
         }
 
+        // procedimento para exibição de todas as cartas geradas
         public void mostraJogo()
         {
             Mostra.mostraJogo(crupie, p1, p2);
         }
 
+        // procedimento para a avaliação do jogo, quem ganhou e quem perdeu ou se houve empate
         public void avaliajogo()
         {
-            Console.WriteLine("IMPLEMENTAR AQUI");
+            
             Console.WriteLine("Aperte qualquer tecla para continuar");
         }
     }

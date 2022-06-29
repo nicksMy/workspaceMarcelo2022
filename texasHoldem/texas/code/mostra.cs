@@ -6,7 +6,7 @@ using System.Collections.Generic;
 using System.Linq;
 using System.Threading.Tasks;
 
-namespace texas
+namespace texas.code
 {
     public class Mostra
     {
@@ -39,7 +39,7 @@ namespace texas
             Console.WriteLine("-----------------------------------------------------");
             foreach (var item in cartas)
             {
-                string temporaria = item.paraString();
+                string temporaria = item.ToString();
                 Console.WriteLine(temporaria);
             }
             Console.WriteLine("-----------------------------------------------------");
@@ -63,7 +63,7 @@ namespace texas
                 {
                     Console.WriteLine($"Cartas no index: {ctrl}");
                     for (int i = 0; i < list.Count; i++)
-                        Console.WriteLine("\t" + list[i].paraString());
+                        Console.WriteLine("\t" + list[i].ToString());
                 }
                 ctrl++;
             }
@@ -84,19 +84,19 @@ namespace texas
             Console.WriteLine("Nome do jogador 1 (P1): " + p1.getNome());
             foreach (var carta in p1.getMao())
             {
-                Console.WriteLine(carta.paraString());
+                Console.WriteLine(carta.ToString());
             }
             Console.WriteLine("-----------------------------------------------------");
             Console.WriteLine("Cartas da mesa: ");
             foreach (var carta in c.getMesa())
             {
-                Console.WriteLine(carta.paraString());
+                Console.WriteLine(carta.ToString());
             }
             Console.WriteLine("-----------------------------------------------------");
             Console.WriteLine("Nome do jogador 2 (P2): " + p2.getNome());
             foreach (var carta in p2.getMao())
             {
-                Console.WriteLine(carta.paraString());
+                Console.WriteLine(carta.ToString());
             }
             Console.WriteLine("-----------------------------------------------------");
             Console.WriteLine("Aperte qualquer tecla para continuar");

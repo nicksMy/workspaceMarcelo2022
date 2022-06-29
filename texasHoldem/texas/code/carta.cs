@@ -4,7 +4,7 @@
 using System;
 using System.Collections.Generic;
 
-namespace texas
+namespace texas.code
 {
     public class Carta
     {
@@ -53,7 +53,7 @@ namespace texas
             return naipe;
         }
 
-        public override string paraString()
+        public override string ToString()
         {
             string textoCarta = "Naipe: " + naipe;
             textoCarta += "\tValue: " + valor;

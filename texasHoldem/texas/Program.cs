@@ -5,7 +5,7 @@
 using System;
 using System.Collections.Generic;
 
-namespace texas
+namespace texas.code
 {
     class Program
     {
@@ -41,14 +41,14 @@ namespace texas
                         for (int i = 0; i < 52; i++)
                         {
                         Carta cartaTemporaria = new Carta(crupie.getCarta());
-                        Console.WriteLine(cartaTemporaria.paraString());
+                        Console.WriteLine(cartaTemporaria.ToString());
                         }
 
                         Console.ReadKey();
                         */
                         #endregion
 
-                        //### ------------------------------------------------------- ###
+                        //###### ------------------------------------------------------------------------ ######
                         //### região para teste com o arquivo texto utilizando o histograma ###
                         #region Test_
 
@@ -65,24 +65,33 @@ namespace texas
                         // criação de um novo objeto Valida para efetuar os ranqueamentos implementados
                         Valida validaRank = new Valida();
 
-                        // High Card
+                        // Teste para HIGH CARD
                         validaRank.HighCard(teste.getCartas());
 
-                        // One Pair
+                        // Teste para ONE PAIR
                         validaRank.OnePair(teste.getCartas());
 
-                        // Two Pair
+                        // Teste para TWO PAIR
                         validaRank.TwoPair(teste.getCartas());
 
-                        // Three Of a Kind
+                        // Teste para THREE OF A KIND
                         validaRank.ThreeOfaKind(teste.getCartas());
+
+                        // Teste para FLUSH
+                        validaRank.Flush(teste.getCartas());
+
+                        // Teste para FULL HOUSE
+                        validaRank.FullHouse(teste.getCartas());
+
+                        // Teste para FOUR OF A KIND
+                        validaRank.FourOfaKind(teste.getCartas());
 
                         Console.ReadKey();
                         
                         //### fim da região de teste ###
                         #endregion
 
-                        //### ------------------------------------------------------- ###
+                        //###### ------------------------------------------------------------------------ ######
 
                         break;
                 

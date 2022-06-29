@@ -63,3 +63,17 @@ E:\texas2\obj\Debug\netcoreapp3.1\texas.csproj.CoreCompileInputs.cache
 E:\texas2\obj\Debug\netcoreapp3.1\texas.dll
 E:\texas2\obj\Debug\netcoreapp3.1\texas.pdb
 E:\texas2\obj\Debug\netcoreapp3.1\texas.genruntimeconfig.cache
+D:\workspaceGithub\workspaceMarcelo2022\texasHoldem\texas\obj\Debug\netcoreapp3.1\texas.csproj.AssemblyReference.cache
+D:\workspaceGithub\workspaceMarcelo2022\texasHoldem\texas\obj\Debug\netcoreapp3.1\texas.GeneratedMSBuildEditorConfig.editorconfig
+D:\workspaceGithub\workspaceMarcelo2022\texasHoldem\texas\obj\Debug\netcoreapp3.1\texas.AssemblyInfoInputs.cache
+D:\workspaceGithub\workspaceMarcelo2022\texasHoldem\texas\obj\Debug\netcoreapp3.1\texas.AssemblyInfo.cs
+D:\workspaceGithub\workspaceMarcelo2022\texasHoldem\texas\obj\Debug\netcoreapp3.1\texas.csproj.CoreCompileInputs.cache
+D:\workspaceGithub\workspaceMarcelo2022\texasHoldem\texas\obj\Debug\netcoreapp3.1\texas.dll
+D:\workspaceGithub\workspaceMarcelo2022\texasHoldem\texas\obj\Debug\netcoreapp3.1\texas.pdb
+D:\workspaceGithub\workspaceMarcelo2022\texasHoldem\texas\bin\Debug\netcoreapp3.1\texas.exe
+D:\workspaceGithub\workspaceMarcelo2022\texasHoldem\texas\bin\Debug\netcoreapp3.1\texas.deps.json
+D:\workspaceGithub\workspaceMarcelo2022\texasHoldem\texas\bin\Debug\netcoreapp3.1\texas.runtimeconfig.json
+D:\workspaceGithub\workspaceMarcelo2022\texasHoldem\texas\bin\Debug\netcoreapp3.1\texas.runtimeconfig.dev.json
+D:\workspaceGithub\workspaceMarcelo2022\texasHoldem\texas\bin\Debug\netcoreapp3.1\texas.dll
+D:\workspaceGithub\workspaceMarcelo2022\texasHoldem\texas\bin\Debug\netcoreapp3.1\texas.pdb
+D:\workspaceGithub\workspaceMarcelo2022\texasHoldem\texas\obj\Debug\netcoreapp3.1\texas.genruntimeconfig.cache

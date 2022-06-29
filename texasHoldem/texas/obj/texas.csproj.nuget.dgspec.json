@@ -1,29 +1,30 @@
 {
   "format": 1,
   "restore": {
-    "E:\\texas2\\texas.csproj": {}
+    "D:\\workspaceGithub\\workspaceMarcelo2022\\texasHoldem\\texas\\texas.csproj": {}
   },
   "projects": {
-    "E:\\texas2\\texas.csproj": {
+    "D:\\workspaceGithub\\workspaceMarcelo2022\\texasHoldem\\texas\\texas.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "E:\\texas2\\texas.csproj",
+        "projectUniqueName": "D:\\workspaceGithub\\workspaceMarcelo2022\\texasHoldem\\texas\\texas.csproj",
         "projectName": "texas",
-        "projectPath": "E:\\texas2\\texas.csproj",
-        "packagesPath": "C:\\Users\\7695365.UNIVALI.000\\.nuget\\packages\\",
-        "outputPath": "E:\\texas2\\obj\\",
+        "projectPath": "D:\\workspaceGithub\\workspaceMarcelo2022\\texasHoldem\\texas\\texas.csproj",
+        "packagesPath": "C:\\Users\\raminstorm\\.nuget\\packages\\",
+        "outputPath": "D:\\workspaceGithub\\workspaceMarcelo2022\\texasHoldem\\texas\\obj\\",
         "projectStyle": "PackageReference",
         "configFilePaths": [
-          "C:\\Users\\7695365.UNIVALI.000\\AppData\\Roaming\\NuGet\\NuGet.Config"
+          "C:\\Users\\raminstorm\\AppData\\Roaming\\NuGet\\NuGet.Config"
         ],
         "originalTargetFrameworks": [
-          "netcoreapp3.1"
+          "net5.0"
         ],
         "sources": {
           "https://api.nuget.org/v3/index.json": {}
         },
         "frameworks": {
-          "netcoreapp3.1": {
+          "net5.0": {
+            "targetAlias": "net5.0",
             "projectReferences": {}
           }
         },
@@ -34,7 +35,8 @@
         }
       },
       "frameworks": {
-        "netcoreapp3.1": {
+        "net5.0": {
+          "targetAlias": "net5.0",
           "imports": [
             "net461",
             "net462",
@@ -50,7 +52,7 @@
               "privateAssets": "all"
             }
           },
-          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\3.1.406\\RuntimeIdentifierGraph.json"
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\5.0.407\\RuntimeIdentifierGraph.json"
         }
       }
     }

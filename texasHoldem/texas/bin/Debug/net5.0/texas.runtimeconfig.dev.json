@@ -1,8 +1,8 @@
 {
   "runtimeOptions": {
     "additionalProbingPaths": [
-      "C:\\Users\\raminstorm-note\\.dotnet\\store\\|arch|\\|tfm|",
-      "C:\\Users\\raminstorm-note\\.nuget\\packages"
+      "C:\\Users\\raminstorm\\.dotnet\\store\\|arch|\\|tfm|",
+      "C:\\Users\\raminstorm\\.nuget\\packages"
     ]
   }
 }
