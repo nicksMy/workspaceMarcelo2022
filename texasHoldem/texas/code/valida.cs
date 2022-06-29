@@ -8,7 +8,38 @@ namespace texas.code
 {
     public class Valida
     {
+
+        public enum pontuacaoMao
+        {
+            HIGHCARD = 1,
+            ONEPAIR = 2,
+            TWOPAIR = 3,
+            THREEOFAKIND = 4,
+            STRAIGHT = 5,
+            FLUSH = 6,
+            FULLHOUSE = 7,
+            FOUROFAKIND = 8,
+            STRAIGHTFLUSH = 9,
+            ROYALFLUSH = 10
+        }
+
         private List<List<Carta>> _histo;
+        private int pontuacao;
+
+        // set / get
+        // encapsulamento
+
+        // set
+        public void setPontuacao (int p)
+        {
+            pontuacao = p;
+        }
+
+        // get
+        public int getPontuacao ()
+        {
+            return pontuacao;
+        }
 
         //###### ------------------------------------------------------------------------ ######
 

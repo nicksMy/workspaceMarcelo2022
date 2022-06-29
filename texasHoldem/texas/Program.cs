@@ -26,30 +26,11 @@ namespace texas.code
 
                 switch (opcao)
                 {
-                    //### caso da opção testar ###
+                    //###### caso da opção testar ######
                     case 1:
-                        //### região para criação do crupie e suas ações ###
-                        #region Croupie_
-                        /*
-                        Crupie crupie = new Crupie();
-                        crupie.criarCartas();
-                        Mostra.mostraCartas(crupie.getListaCartas());
-
-                        crupie.embaralhar();
-                        crupie.setDeck();
-
-                        for (int i = 0; i < 52; i++)
-                        {
-                        Carta cartaTemporaria = new Carta(crupie.getCarta());
-                        Console.WriteLine(cartaTemporaria.ToString());
-                        }
-
-                        Console.ReadKey();
-                        */
-                        #endregion
-
                         //###### ------------------------------------------------------------------------ ######
-                        //### região para teste com o arquivo texto utilizando o histograma ###
+                        
+                        //###### região para teste com o arquivo texto utilizando o histograma ######
                         #region Test_
 
                         // criação de um novo objeto Teste
@@ -88,14 +69,14 @@ namespace texas.code
 
                         Console.ReadKey();
                         
-                        //### fim da região de teste ###
                         #endregion
+                        //###### fim da região de teste ######
 
                         //###### ------------------------------------------------------------------------ ######
 
                         break;
                 
-                    //### caso da opção jogar ###
+                    //###### caso da opção jogar ######
                     case 2:
                         // criação de um novo objeto Jogo
                         Jogo jogo = new Jogo();
@@ -106,7 +87,7 @@ namespace texas.code
                         jogo.avaliajogo();
                         break;
 
-                    //### caso não tenha um caso dentro das opções ###
+                    //###### caso não tenha um caso dentro das opções ######
                     default:
                         break;
                 }

@@ -29,8 +29,8 @@ namespace texas.code
             crupie.embaralhar();
             crupie.setDeck();
 
-            // criação dos novos objetos Carta para cada jogador
-            carta = new Carta(crupie.getCarta());
+            // criação dos novos objetos Carta para cada jogador, tirados apartir do deck feito pelo Crupie
+            Carta carta = new Carta(crupie.getCarta());
             carta.setDono(0);
             p1.setCarta(carta);
             
@@ -59,8 +59,30 @@ namespace texas.code
         // procedimento para a avaliação do jogo, quem ganhou e quem perdeu ou se houve empate
         public void avaliajogo()
         {
-            
+            // criação de lista da mão para uso temporario
+            List<Carta> tempMaoP1 = new List<Carta>();
+            List<Carta> tempMaoP2 = new List<Carta>();
+
+            // adição da mão do jogador com sua respectiva lista
+            tempMaoP1 = p1.getMao();
+            tempMaoP2 = p2.getMao();
+
+            // criação de um novo objeto Valida para efetuar os ranqueamentos implementados
+            Valida validaRank = new Valida();
+
+            // adição da cartas da mesa pra dentro da lista temporaria dos jogadores
+            crupie.getMesa().AddRange(tempMaoP1);
+            crupie.getMesa().AddRange(tempMaoP2);
+
+            // debug
+            Console.WriteLine($"cartas da mao e da mesa P1: {getCartasJogador(tempMaoP1)}");
             Console.WriteLine("Aperte qualquer tecla para continuar");
+            Console.ReadKey();
+        }
+
+        public List<Carta> getCartasJogador (List<Carta> _cartasJogador)
+        {
+            return _cartasJogador;
         }
     }
 }

@@ -46,6 +46,7 @@ namespace texas.code
             // criação de um novo objeto Random
             Random ran = new Random();
 
+            // laço de loop para embaralhar com todas as cartas dentro da lista de cartas
             for (int i = listaCartas.Count - 1; i > 0; i--)
             {
                 int j =  ran.Next(0, i + 1);
@@ -65,6 +66,7 @@ namespace texas.code
         // set
         public void setDeck ()
         {
+            // botando cartas da lista de cartas no deck
             for (int i = 0; i < listaCartas.Count; i++)
             {
                 deck.Push(listaCartas[i]);
@@ -73,6 +75,7 @@ namespace texas.code
 
         public void setMesa ()
         {
+            // botando 5 cartas do deck na mesa
             for (int i = 0; i < 5; i++)
             {
                 mesa.Add(deck.Pop());

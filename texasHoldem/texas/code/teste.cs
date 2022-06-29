@@ -31,5 +31,12 @@ namespace texas.code
         {
             listaCarta = Carrega.carregaMao();
         }
+
+        // constroi histograma para teste
+        public void constroiHistograma ()
+        {
+            histo = new Histograma(getCartas());
+            histo.contaValores();
+        }
     }
 }

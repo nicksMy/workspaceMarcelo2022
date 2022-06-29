@@ -81,7 +81,7 @@ namespace texas.code
             Console.WriteLine("-----------------------------------------------------");
             Console.WriteLine("JOGO");
             Console.WriteLine("-----------------------------------------------------");
-            Console.WriteLine("Nome do jogador 1 (P1): " + p1.getNome());
+            Console.WriteLine($"Nome do jogador 1 (P1): {p1.getNome()}");
             foreach (var carta in p1.getMao())
             {
                 Console.WriteLine(carta.ToString());
@@ -93,7 +93,7 @@ namespace texas.code
                 Console.WriteLine(carta.ToString());
             }
             Console.WriteLine("-----------------------------------------------------");
-            Console.WriteLine("Nome do jogador 2 (P2): " + p2.getNome());
+            Console.WriteLine($"Nome do jogador 2 (P2): {p2.getNome()}");
             foreach (var carta in p2.getMao())
             {
                 Console.WriteLine(carta.ToString());
