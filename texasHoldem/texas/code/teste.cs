@@ -10,6 +10,7 @@ namespace texas.code
     {
         // estados
         private List<Carta> listaCarta;
+        Histograma histo;
 
         // construtor
         public Teste ()

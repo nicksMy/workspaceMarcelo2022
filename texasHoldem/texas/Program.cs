@@ -108,6 +108,7 @@ namespace texas.code
                 // leitura e armazenamento de dado pós resultado da tentativa de passar para Int32
                 Int32.TryParse(Console.ReadLine(), out opt);
 
+                // validação das opções já implementadas e validas
                 if (opt >= 1 && opt <= 2) break;
                 else Console.WriteLine("Opções validas: 1 ou 2");
             }

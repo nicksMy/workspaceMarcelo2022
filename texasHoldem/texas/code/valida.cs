@@ -8,8 +8,8 @@ namespace texas.code
 {
     public class Valida
     {
-
-        public enum pontuacaoMao
+        /*
+        public enum pontuacaoMao : int
         {
             HIGHCARD = 1,
             ONEPAIR = 2,
@@ -22,29 +22,13 @@ namespace texas.code
             STRAIGHTFLUSH = 9,
             ROYALFLUSH = 10
         }
-
+        */
         private List<List<Carta>> _histo;
-        private int pontuacao;
-
-        // set / get
-        // encapsulamento
-
-        // set
-        public void setPontuacao (int p)
-        {
-            pontuacao = p;
-        }
-
-        // get
-        public int getPontuacao ()
-        {
-            return pontuacao;
-        }
 
         //###### ------------------------------------------------------------------------ ######
 
         // procedimento para validação para identificação High Card
-        public void HighCard (List<Carta> Mao)
+        public int HighCard (List<Carta> Mao)
         {
             // criação de carta temporaria para efetuar a validação
             Carta temp = new Carta(0, 0, "");
@@ -55,15 +39,20 @@ namespace texas.code
                 if (carta.getValor() > temp.getValor())
                 {
                     temp = carta;
+                    Console.WriteLine($"\n- - - H I G H  C A R D - - -\n\nSua maior carta é: {temp.getValor()}");
+
+                    // retorna o valor da pontuação correspondente a combinação
+                    return 1;
                 }
             }
-            Console.WriteLine($"\n- - - H I G H  C A R D - - -\n\nSua maior carta é: {temp.getValor()}");
+            // retorna zero quando não identificado na combinação
+            return 0;
         }
 
         //###### ------------------------------------------------------------------------ ######
 
         // procedimento para validação para identificação One Pair
-        public void OnePair (List<Carta> Mao)
+        public int OnePair (List<Carta> Mao)
         {
             // criação de carta temporaria para efetuar a validação
             Carta temp01 = new Carta(0, 0, "");
@@ -86,15 +75,21 @@ namespace texas.code
                 if (conta == 2)
                 {
                     temp01 = carta;
+                    Console.WriteLine($"\n- - - O N E  P A I R - - -\n\nSeu maior par de cartas é: {temp01.getValor()}");
+
+                    // retorna o valor da pontuação correspondente a combinação
+                    return 2;
                 }
+                conta = 0;
             }
-            Console.WriteLine($"\n- - - O N E  P A I R - - -\n\nSeu maior par de cartas é: {temp01.getValor()}");
+            // retorna zero quando não identificado na combinação
+            return 0;
         }
 
         //###### ------------------------------------------------------------------------ ######
 
         // procedimento para validação para identificação Two Pair
-        public void TwoPair (List<Carta> Mao)
+        public int TwoPair (List<Carta> Mao)
         {
             // criação de carta temporaria para efetuar a validação
             Carta temp01 = new Carta(0, 0, "");
@@ -137,18 +132,22 @@ namespace texas.code
                     {
                         segundoPar = carta.getValor();
                         segundo = true;
+                        Console.WriteLine($"\n- - - T W O  P A I R - - -\n\nSeus pares de cartas são: {primeiroPar.getValor()} e {segundoPar}");
+
+                        // retorna o valor da pontuação correspondente a combinação
+                        return 3;
                     }
                 }
-
                 conta = 0;
             }
-            Console.WriteLine($"\n- - - T W O  P A I R - - -\n\nSeus pares de cartas são: {primeiroPar.getValor()} e {segundoPar}");
+            // retorna zero quando não identificado na combinação
+            return 0;
         }
 
         //###### ------------------------------------------------------------------------ ######
 
         // procedimento para validação para identificação Three-of-a-Kind
-        public void ThreeOfaKind (List<Carta> Mao)
+        public int ThreeOfaKind (List<Carta> Mao)
         {
             // criação de carta temporaria para efetuar a validação
             Carta temp01 = new Carta(0, 0, "");
@@ -173,9 +172,15 @@ namespace texas.code
                 if (conta == 3)
                 {
                     temp01 = carta;
+                    Console.WriteLine($"\n- - - T H R E E  O F  A  K I N D - - -\n\nSeu trio de cartas é: {temp01.getValor()}");
+
+                    // retorna o valor da pontuação correspondente a combinação
+                    return 4;
                 }
+                conta = 0;
             }
-            Console.WriteLine($"\n- - - T H R E E  O F  A  K I N D - - -\n\nSeu trio de cartas é: {temp01.getValor()}");
+            // retorna zero quando não identificado na combinação
+            return 0;
         }
 
         //###### ------------------------------------------------------------------------ ######
@@ -189,7 +194,7 @@ namespace texas.code
         //###### ------------------------------------------------------------------------ ######
 
         // procedimento para validação para identificação Flush
-        public void Flush (List<Carta> Mao)
+        public int Flush (List<Carta> Mao)
         {
             // criação de carta temporaria para efetuar a validação
             Carta temp01 = new Carta(0, 0, "");
@@ -215,15 +220,21 @@ namespace texas.code
                 if (conta == 5)
                 {
                     temp01 = carta;
+                    Console.WriteLine($"\n- - - F L U S H - - -\n\nSeu naipe da sequencia de cartas é: {temp01.getNaipe()}");
+
+                    // retorna o valor da pontuação correspondente a combinação
+                    return 5;
                 }
+                conta = 0;
             }
-            Console.WriteLine($"\n- - - F L U S H - - -\n\nSeu naipe da sequencia de cartas é: {temp01.getNaipe()}");
+            // retorna zero quando não identificado na combinação
+            return 0;
         }
 
         //###### ------------------------------------------------------------------------ ######
 
         // procedimento para validação para identificação Full House
-        public void FullHouse (List<Carta> Mao)
+        public int FullHouse (List<Carta> Mao)
         {
             // criação de carta temporaria para efetuar a validação
             Carta temp01 = new Carta(0, 0, "");
@@ -256,25 +267,29 @@ namespace texas.code
                 bool par01 = conta == 2;
 
                 // caso encontre um novo par e já tenha o primeiro par
-                if (conta == 2 && primeiro == true)
+                if (conta == 3 && primeiro == true)
                 {
                     // validação para não pegar o mesmo par dentro das cartas
                     if (carta.getValor() != primeiroPar.getValor())
                     {
                         segundoPar = carta.getValor();
                         segundo = true;
+                        Console.WriteLine($"\n- - - F U L L  H O U S E - - -\n\nSua sequencia de cartas do Full House é: {primeiroPar.getValor()} e {segundoPar}");
+
+                        // retorna o valor da pontuação correspondente a combinação
+                        return 6;
                     }
                 }
-
                 conta = 0;
             }
-            Console.WriteLine($"\n- - - F U L L  H O U S E - - -\n\nSua sequencia de cartas do Full House é: {primeiroPar.getValor()} {segundoPar}");
+            // retorna zero quando não identificado na combinação
+            return 0;
         }
 
         //###### ------------------------------------------------------------------------ ######
 
         // procedimento para validação para identificação Four-of-a-Kind
-        public void FourOfaKind (List<Carta> Mao)
+        public int FourOfaKind (List<Carta> Mao)
         {
             // criação de carta temporaria para efetuar a validação
             Carta temp01 = new Carta(0, 0, "");
@@ -300,9 +315,15 @@ namespace texas.code
                 if (conta == 4)
                 {
                     temp01 = carta;
+                    Console.WriteLine($"\n- - - F O U R  O F  A  K I N D - - -\n\nSeu quarteto de cartas é: {temp01.getValor()}");
+
+                    // retorna o valor da pontuação correspondente a combinação
+                    return 7;
                 }
+                conta = 0;
             }
-            Console.WriteLine($"\n- - - F O U R  O F  A  K I N D - - -\n\nSeu quarteto de cartas é: {temp01.getValor()}");
+            // retorna zero quando não identificado na combinação
+            return 0;
         }
 
         //###### ------------------------------------------------------------------------ ######
